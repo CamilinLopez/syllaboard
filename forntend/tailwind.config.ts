@@ -8,10 +8,22 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+    },
     extend: {
       fontFamily: {
         outfit: ["Outfit", ...defaultTheme.fontFamily.sans],
         ibm: ["ibm-plex-sans", ...defaultTheme.fontFamily.sans],
+      },
+      colors: {
+        azul: "#042F70",
+        abano: "#FCFCFC",
+        oscuro: "#171717",
+      },
+      fontSize: {
+        h1: "700px",
       },
     },
   },

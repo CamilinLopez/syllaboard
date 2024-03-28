@@ -30,6 +30,16 @@
   font-style: normal;
 }
 
+.division {
+  border-bottom: 3px solid #d3d3d3;
+}
+
+.header {
+  background-imagen: url("/Frame.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: #FFFFFF;
