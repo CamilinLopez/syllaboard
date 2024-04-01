@@ -21,6 +21,7 @@ const config: Config = {
         azul: "#042F70",
         abano: "#FCFCFC",
         oscuro: "#171717",
+        gris: "#ECECEC",
       },
       fontSize: {
         h1: "700px",

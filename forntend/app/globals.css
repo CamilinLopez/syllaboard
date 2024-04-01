@@ -17,32 +17,36 @@
 }
 
 @font-face {
-  font-family: 'ibm-plex-sans';
-  src: url('/IBM_Plex_Sans/IBMPlexSans-Regular.ttf') format('truetype');
+  font-family: "ibm-plex-sans";
+  src: url("/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
   font-weight: 400; /* Normal */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Outfit';
-  src: url('/Outfit/static/Outfit-Regular.ttf') format('truetype');
+  font-family: "Outfit";
+  src: url("/Outfit/static/Outfit-Regular.ttf") format("truetype");
   font-weight: 400; /* Normal */
   font-style: normal;
 }
 
 .division {
-  border-bottom: 3px solid #d3d3d3;
+  border-bottom: 4px solid #f5f5f5;
 }
 
 .header {
-  background-imagen: url("/Frame.svg");
+  background-image: url("/images/Frame.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.learn {
+  background-color: #ECECEC
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: #FFFFFF;
+  background: #ffffff;
   color: #000000;
 }
 
